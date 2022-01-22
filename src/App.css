@@ -1,0 +1,65 @@
+.App {
+    text-align: center;
+  }
+  .card{
+    /* border: 3px solid rgb(230, 21, 21); */
+    padding: 5px;
+    background-color:rgb(17, 48, 51);
+    width: max-content;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .card:hover{
+    background-color:magenta;
+  }
+  
+  .cards{
+    /* border: 1px solid gold; */
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 500px;
+  }
+  
+  .more{
+    margin-left: 300px;
+    /* border: 1px solid orange; */
+    width: 500px;
+    position: absolute;
+    top: 0px;
+    /* text-align: center; */
+  }
+  
+  .image{
+    width: 400px;
+    height: 400px;
+  }
+  
+  .link{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 50px;
+    color: white;
+  }
+  .link:active{
+    color: blue;
+  }
+  
+  .nav{
+    background-color: palevioletred;
+    text-align: center;
+    padding: 10px;
+  
+  }
+  
+  .error{
+    font-size: 100px;
+  }
+  body{
+    background-color: lightseagreen;
+  }
